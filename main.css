@@ -297,3 +297,52 @@ p.box-text2{
     transform: translateY(0);
   }
 }
+
+@media (max-width: 1025px){
+  .box-graphic{
+    position: relative;
+  }
+
+  .picture-main2{
+    width: 100%;
+    height: auto;
+  }
+
+  .box-text{
+    position: absolute;
+    top: 65%;
+    left: 32%;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces', sans-serif;
+  }
+
+  p.box-text{
+    max-width: 360px;
+    text-align: center;
+    font-family: 'Barlow';
+    color: hsl(167, 40%, 24%);
+    position: absolute;
+    top: 75%;
+    left: 15%;
+  }
+
+
+
+  .box-text2{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    color: var(--Dblue);
+    font-family: 'Fraunces', sans-serif;
+  }
+
+  p.box-text2{
+    max-width: 360px;
+    text-align: center;
+    font-family: 'Barlow';
+    color: var(--Dblue);
+    position: absolute;
+    top: 75%;
+    left: 15%;
+  }
+}
